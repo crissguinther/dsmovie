@@ -30,7 +30,7 @@ function Listing() {
         setPage(data);
       });
   }, [pageNumber]);
-
+  
   return (
     <>
       <Pagination />
